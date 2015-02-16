@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+    </style>
+
+    <style name="MiTema" parent="@android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MiActionBar</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="MiActionBar" parent="@android:Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">#ff007e99</item>
+    </style>
+
+
+</resources>

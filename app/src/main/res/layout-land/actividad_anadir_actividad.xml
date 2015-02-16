@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout3">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="40dp"
+            android:paddingRight="0dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/linearLayout" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/profesor"
+                android:id="@+id/tvProfesor"
+                android:layout_gravity="bottom" />
+
+            <Spinner
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:id="@+id/spProfesor" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout20"
+            android:paddingLeft="40dp"
+            android:paddingRight="0dp"
+            android:layout_marginTop="20dp" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/grupo"
+                android:id="@+id/tvGrupo"
+                android:layout_gravity="bottom" />
+
+            <Spinner
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:id="@+id/spGrupo" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout6">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="0dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/tipo"
+                android:id="@+id/tvTipo"
+                android:layout_gravity="bottom" />
+
+            <Spinner
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:id="@+id/spTipo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:paddingLeft="40dp"
+            android:paddingRight="0dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/linearLayout5" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/fecha"
+                android:id="@+id/tvFecha"
+                android:layout_gravity="center_vertical" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+"
+                    android:id="@+id/button"
+                    android:onClick="fechaDesde"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desde"
+                    android:id="@+id/tvSetFechaD"
+                    android:layout_gravity="center_horizontal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="75dp"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+"
+                    android:id="@+id/button2"
+                    android:onClick="fechaHasta"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hasta"
+                    android:id="@+id/tvSetFechaH"
+                    android:layout_gravity="center_horizontal" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout12">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:paddingLeft="40dp"
+            android:paddingRight="0dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/linearLayout2" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/lugar"
+                android:id="@+id/tvLugar"
+                android:layout_gravity="bottom" />
+
+            <EditText
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/etLSalida"
+                android:hint="@string/salida" />
+
+            <EditText
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/etLRegreso"
+                android:hint="@string/hasta" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="40dp"
+            android:paddingRight="0dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/linearLayout10" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/descripcion"
+                android:id="@+id/textView"
+                android:layout_gravity="bottom" />
+
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/etDescripcion"
+                android:hint="@string/descripcion" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/linearLayout11"
+            android:gravity="center_horizontal" >
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/guardar"
+                android:id="@+id/btGuardar"
+                android:onClick="agregarActividad" />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/cancelar"
+                android:id="@+id/btCancelar" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

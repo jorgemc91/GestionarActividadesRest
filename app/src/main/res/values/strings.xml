@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gestion Actividades</string>
+    <string name="accion_anadir">Añadir actividad</string>
+    <string name="profesor">Profesor</string>
+    <string name="departamento">Departamento</string>
+    <string name="grupo">Grupo</string>
+    <string name="fecha">Fecha</string>
+    <string name="lugar">Lugar</string>
+    <string name="tipo">Tipo</string>
+    <string name="desde">Desde</string>
+    <string name="hasta">Hasta</string>
+    <string name="salida">Salida</string>
+    <string name="regreso">Regreso</string>
+    <string name="descripcion">Descripción</string>
+    <string name="guardar">Guardar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="borrar">Borrar</string>
+    <string name="title_activity_secundaria">Detalle actividad</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

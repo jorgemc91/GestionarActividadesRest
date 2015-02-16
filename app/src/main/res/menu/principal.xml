@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Principal" >
+    <item android:title="@string/accion_anadir"
+        android:id="@+id/accion_anadir"
+        android:orderInCategory="90"
+        android:icon="@android:drawable/ic_menu_add"
+        android:showAsAction="always|collapseActionView"/>
+</menu>
